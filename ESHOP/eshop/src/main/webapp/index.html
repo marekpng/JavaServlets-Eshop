@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+<style></style>
+</head>
+<body>
+<h1>ahoj prihlas sa na stranku</h1>
+
+<form action="MainServlet" method="post">
+ <input type="hidden" name="operacia" value="login">
+ Login: <input type="text" name="login"><br/>
+ Heslo: <input type="password" name="pwd"><br/>
+ <input type="submit" value="Prihlasit">
+</form>
+
+<h3>REGISTRACNY FORMULAR</h3>
+<form action="RegisterServlet" method="post">
+    
+    <input type="hidden"  name="operacia" value="registrovat"><br>
+
+    <input type="submit" value="prejst na registraciu">
+</form>
+
+</body>
+</html>

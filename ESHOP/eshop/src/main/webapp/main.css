@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Základné štyly */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontajner pre produkty */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Štýl pre jednotlivé produkty */
+.product-box {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-box img  {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-info h3, .product-info p {
+    margin: 5px 0;
+}
+
+
+
+
+/* style.css */
+
+
